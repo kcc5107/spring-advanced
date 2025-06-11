@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class PasswordEncoderTest {
 
     @InjectMocks
-    private PasswordEncoder passwordEncoder = new PasswordEncoder();
+    private PasswordEncoder passwordEncoder;
 
     @Test
     void matches_메서드가_정상적으로_동작한다() {
